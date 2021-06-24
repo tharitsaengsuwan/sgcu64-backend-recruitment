@@ -98,3 +98,36 @@ Please input any number: 3
 # Applicant Section
 
 ตั้งแต่ส่วนนี้ลงไป เป็นส่วนที่ผู้สมัครสามารถแก้ไขได้ตามอัธยาศัย ซึ่งอาจจะเป็นข้อสันนิษฐานหรือไอเดียเพิ่มเติมก็ได้
+
+## Added Features
+
+เพิ่มความสามารให้โปรแกรมสามารถเพิ่มสถานที่ใหม่ และลบสถานที่ที่มีอยู่แล้วได้ด้วย
+โดย จะเห็นว่า 
+
+Welcome to Chula Chana!!!
+Available commands:
+  1. Check in user
+  2. Check out user
+  3. Print people count
+  4. Add a new location
+  5. Remove a location
+Please input any number: 
+
+มีคำสั่งที่เพิ่มมาคือคำสั่งที่ 4 และ 5
+
+การใช้งานคำสั่งที่ 4. Add a new location
+  - ระบบจะให้ผู้ใช้ใส่ชื่อสถานที่ใหม่ที่ต้องการเพิ่ม(มี space bar ได้)
+  - จากนั้นโปรแกรมจะทำการเพิ่มสถานที่ใหม่พร้อมกับพิมพ์สถานที่ทั้งหมดออกมา
+
+การใช้งานคำสั่งที่ 5. Remove a location
+  - ระบบจะให้ผู้ใช้ใส่ "หมายเลข" ของสถานที่ ที่ต้องการลบ
+  - จากนั้นโปรแกรมจะทำการลบสถานที่ตามหมายเลขที่ผู้ใช้ใส่
+
+## Assumption
+
+โปรแกรมนี้ทำงานบนสมมติฐานที่ว่า ในช่อง
+  - Please input any number: 
+  - Select the place: 
+  - Select the location you want to remove: 
+
+ผู้ใช้งานจะใส่ input ที่เป็น int เท่านั้น ไม่ใช่ string หรือ ข้อมูลประเภทอื่นๆ
