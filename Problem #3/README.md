@@ -137,3 +137,11 @@ Swagger UI
 API document ด้านล่างถูกสร้างด้วยแอพพลิเคชั่น POSTMAN
 กรุณาไปที่ลิงก์ด้านล่างเพื่อดู document
 https://documenter.getpostman.com/view/15500566/TzedgjGm
+
+## Instruction
+
+![image](https://user-images.githubusercontent.com/60168101/123437486-e9bd4380-d5f9-11eb-9eac-7f2cfc0349b2.png)
+
+ผู้ใช้งานสามารถเปลี่ยนภาษาโปรแกรมมิ่งที่ต้องการได้ในช่อง LANGUAGE ในแถบด้านบนของ document จากนั้นตัวอย่าง API request ในบริเวณสีดำด้านขวามือก็จะเปลี่ยนไปตามภาษาที่ผู้ใช้ต้องการ
+
+
